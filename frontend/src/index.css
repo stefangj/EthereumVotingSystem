@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  font-family: "Abel", sans-serif !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(235, 235, 235) !important;
+}
+
+.offcanvas-title {
+  font-size: 2rem !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  border: 1px solid rgb(47, 52, 58);
+  border-radius: 10px;
+  padding-left: 5% !important;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  text-decoration: none;
+  margin: 1%;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  background-color: rgb(47, 52, 58) !important;
+  text-decoration: none;
+}
+
+.card-header,
+.card-footer {
+  background-color: rgb(33, 31, 47) !important;
+  color: #fff;
+}
+
+.card {
+  box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  border: none !important;
+}
+
+.formCandidate {
+  box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  border: none !important;
+  padding: 3%;
+  border-radius: 2%;
+  height: 100%;
+}
+
+.formVoter {
+  box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  border: none !important;
+  padding: 3%;
+  border-radius: 2%;
+  height: 100%;
+}
+
+.formElection {
+  box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  border: none !important;
+  padding: 3%;
+  border-radius: 2%;
+  height: 100%;
+}
+
+.bottomButton {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  width: 86%;
+}
+
+.submitInfo {
+  box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  border: none !important;
+  padding: 5%;
+  height: 100%;
+  border-radius: 2%;
+  width: 100%;
+}
+
+.formLogin {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.candidateLabel {
+  float: left;
+  clear: none;
+  display: block;
+  padding: 0px 0px 10px 10px;
+}
+
+input[type="radio"],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 30px 0 0 2px;
+  vertical-align: middle;
+}
+
+.votingPage {
+  margin-top: 3%;
+  height: 100%;
+}
+
+.loader {
+  margin: 25% 45%;
+}
+
+.addNew {
+  color: red;
+  text-align: center;
+  padding: 1%;
+}
+
+.votingForm {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.candidateStyle {
+  margin: 2%;
+  background-color: rgb(214, 213, 213);
+  width: 95%;
+  height: 100px;
+  padding: 1%;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.candidateStyle:hover {
+  background-color: rgb(192, 191, 191);
+}
+
+.candidateVoting {
+  margin-left: 2% !important;
+  margin-right: 6% !important;
+}
+
+.voterDetails {
+  box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  border: none !important;
+  padding: 5%;
+  height: 100%;
+  border-radius: 2%;
+  width: 100%;
+  font-size: 85%;
+}
+
+.voterDetails {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.voterDetailsSpan {
+  display: inline-block;
+  margin-top: 4%;
+}
+
+.imgAccount {
+  width: 40%;
+  height: 70%;
+  margin-bottom: 2%;
+}
+
+.voteButton {
+  clear: both;
+  float: right;
+  margin: 0 auto;
+  margin-right: 4%;
+}
+
+.resultsPage {
+  padding: 2%;
+}
+
+.candidateImage {
+  width: 10%;
+}
+
+.candidateImageTable {
+  width: 20%;
+}
+
+.voterImage {
+  width: 40%;
+}
+
+td {
+  vertical-align: middle;
+}
+
+table {
+  text-align: center;
+}
+
+.timerElection {
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.timerMain {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.votingTimer {
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.referendumVotingPage {
+  margin-top: 3%;
+  height: 100%;
+}
+
+.formReferendum {
+  box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 17px -2px rgba(0, 0, 0, 1);
+  border: none !important;
+  padding: 3%;
+  border-radius: 2%;
+  height: 100%;
+}
+
+.referendumStyle {
+  margin: 2%;
+  background-color: rgb(214, 213, 213);
+  width: 95%;
+  height: 200px;
+  padding: 1%;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.referendumButtons {
+  margin-left: 35%;
+}
+
+.referendumLabel {
+  padding-left: 3%;
+  padding-top: -3%;
+}
